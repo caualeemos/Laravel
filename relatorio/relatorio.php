@@ -21,7 +21,7 @@ $objFcs = new Funcoes();
 	// Arial bold 15
 	$this->SetFont('Arial','B',15);
 	// Title
-	$this->Cell(190,10, $objFcs->tratarCaracter('Apoio às Residências em Saúde', 1),0,0,'C');
+	$this->Cell(190,10, $objFcs->tratarCaracter('Seu Relatório', 1),0,0,'C');
 	$this ->Ln();
 	$this->Cell(190,7,'Lista de Inscritos - 2016',0,0,'C');
 	// Line break
